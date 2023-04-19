@@ -1,10 +1,12 @@
-import { getProduct, getProducts } from "@/api/products"
+import { getProduct, getProducts } from "@/service/products"
 
 type Props = {
   params: {
     slug: string
   }
 }
+
+export const revalidate = 3
 
 export function generateMetadata({ params }: Props) {
   return {
