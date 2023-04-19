@@ -2,21 +2,19 @@
   {
     "id": "1",
     "name": "청바지",
-    "price": 55000
+    "price": 55000,
+    "image": "jeans.jpg"
   },
   {
     "id": "2",
-    "name": "볼캡",
-    "price": 13000
+    "name": "신발",
+    "price": 400000,
+    "image": "shoes.jpg"
   },
   {
     "id": "3",
-    "name": "조던 스캇",
-    "price": 400000
-  },
-  {
-    "id": "4",
-    "name": "와이셔츠",
-    "price": 12000
+    "name": "티셔츠",
+    "price": 12000,
+    "image": "tshirt.jpg"
   }
 ]
