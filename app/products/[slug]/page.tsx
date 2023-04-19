@@ -1,4 +1,5 @@
 import { getProduct, getProducts } from "@/service/products"
+import { notFound } from "next/navigation"
 
 type Props = {
   params: {
@@ -18,7 +19,7 @@ export default async function ProductPage({ params: { slug } }: Props) {
   const product = await getProduct(slug)
 
   if (!product) {
-    return <div>존재하지 않는 제품입니다.</div>
+    notFound()
   }
 
   return <div className="text-6xl">{product.name} 제품 설명 페이지</div>
