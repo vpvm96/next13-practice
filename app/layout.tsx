@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header className="flex items-center justify-between p-6 border-b-2 border-blue-700">
-          <h1 className="text-4xl">Blog</h1>
+          <h1 className="text-4xl">Practice Note</h1>
           <nav className="flex justify-between gap-3">
             <Link href="/products">Products</Link>
             <Link href="/about">About</Link>
